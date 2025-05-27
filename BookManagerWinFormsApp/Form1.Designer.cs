@@ -48,6 +48,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(TitleAplication);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
