@@ -1,8 +1,8 @@
 namespace BookManagerWinFormsApp
 {
-    public partial class Form1 : Form
+    public partial class Frm_Principal : Form
     {
-        public Form1()
+        public Frm_Principal()
         {
             InitializeComponent();
         }
@@ -10,6 +10,11 @@ namespace BookManagerWinFormsApp
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
