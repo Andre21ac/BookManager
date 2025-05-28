@@ -36,13 +36,13 @@
             textBox1 = new TextBox();
             btn_Buscar = new Button();
             groupBox2 = new GroupBox();
+            lbl_AnoPublicacao = new Label();
+            lbl_AutorLivro = new Label();
+            lbl_TituloLivro = new Label();
+            label3 = new Label();
+            label2 = new Label();
             lbl2 = new Label();
             pictureBox1 = new PictureBox();
-            label2 = new Label();
-            label3 = new Label();
-            lbl_TituloLivro = new Label();
-            lbl_AutorLivro = new Label();
-            lbl_AnoPublicacao = new Label();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -124,6 +124,54 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "groupBox2";
             // 
+            // lbl_AnoPublicacao
+            // 
+            lbl_AnoPublicacao.AutoSize = true;
+            lbl_AnoPublicacao.Location = new Point(166, 482);
+            lbl_AnoPublicacao.Name = "lbl_AnoPublicacao";
+            lbl_AnoPublicacao.Size = new Size(18, 20);
+            lbl_AnoPublicacao.TabIndex = 6;
+            lbl_AnoPublicacao.Text = "...";
+            // 
+            // lbl_AutorLivro
+            // 
+            lbl_AutorLivro.AutoSize = true;
+            lbl_AutorLivro.Location = new Point(80, 442);
+            lbl_AutorLivro.Name = "lbl_AutorLivro";
+            lbl_AutorLivro.Size = new Size(18, 20);
+            lbl_AutorLivro.TabIndex = 5;
+            lbl_AutorLivro.Text = "...";
+            lbl_AutorLivro.Click += lbl_AutorLivro_Click;
+            // 
+            // lbl_TituloLivro
+            // 
+            lbl_TituloLivro.AutoSize = true;
+            lbl_TituloLivro.Location = new Point(81, 404);
+            lbl_TituloLivro.Name = "lbl_TituloLivro";
+            lbl_TituloLivro.Size = new Size(18, 20);
+            lbl_TituloLivro.TabIndex = 4;
+            lbl_TituloLivro.Text = "...";
+            lbl_TituloLivro.Click += lbl_TituloLivro_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(31, 482);
+            label3.Name = "label3";
+            label3.Size = new Size(137, 20);
+            label3.TabIndex = 3;
+            label3.Text = "Ano de publicação:";
+            label3.Click += label3_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(31, 442);
+            label2.Name = "label2";
+            label2.Size = new Size(49, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Autor:";
+            // 
             // lbl2
             // 
             lbl2.AutoSize = true;
@@ -143,54 +191,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(31, 442);
-            label2.Name = "label2";
-            label2.Size = new Size(49, 20);
-            label2.TabIndex = 2;
-            label2.Text = "Autor:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(31, 482);
-            label3.Name = "label3";
-            label3.Size = new Size(137, 20);
-            label3.TabIndex = 3;
-            label3.Text = "Ano de publicação:";
-            label3.Click += label3_Click;
-            // 
-            // lbl_TituloLivro
-            // 
-            lbl_TituloLivro.AutoSize = true;
-            lbl_TituloLivro.Location = new Point(87, 404);
-            lbl_TituloLivro.Name = "lbl_TituloLivro";
-            lbl_TituloLivro.Size = new Size(18, 20);
-            lbl_TituloLivro.TabIndex = 4;
-            lbl_TituloLivro.Text = "...";
-            lbl_TituloLivro.Click += lbl_TituloLivro_Click;
-            // 
-            // lbl_AutorLivro
-            // 
-            lbl_AutorLivro.AutoSize = true;
-            lbl_AutorLivro.Location = new Point(83, 442);
-            lbl_AutorLivro.Name = "lbl_AutorLivro";
-            lbl_AutorLivro.Size = new Size(18, 20);
-            lbl_AutorLivro.TabIndex = 5;
-            lbl_AutorLivro.Text = "...";
-            lbl_AutorLivro.Click += lbl_AutorLivro_Click;
-            // 
-            // lbl_AnoPublicacao
-            // 
-            lbl_AnoPublicacao.AutoSize = true;
-            lbl_AnoPublicacao.Location = new Point(166, 482);
-            lbl_AnoPublicacao.Name = "lbl_AnoPublicacao";
-            lbl_AnoPublicacao.Size = new Size(18, 20);
-            lbl_AnoPublicacao.TabIndex = 6;
-            lbl_AnoPublicacao.Text = "...";
             // 
             // Frm_Principal
             // 
