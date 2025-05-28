@@ -32,6 +32,7 @@ namespace BookManagerWinFormsApp
             lbl_TituloLivro.Text = "Harry Potter e a pedra filosofal";
             lbl_AnoPublicacao.Text = "1997";
             lbl_AutorLivro.Text = "J.K. Rowling";
+            pictureBox1.ImageLocation = "https://a-static.mlcdn.com.br/1500x1500/livro-harry-potter-e-a-pedra-filosofal/magazineluiza/223260000/5e0050418707cbd107d78d3af402b1c0.jpg";
         }
     }
 }
