@@ -11,7 +11,7 @@ namespace BookManagerConsoleApp.Infraestructure
         {
             var dbPath = Path.Combine(AppContext.BaseDirectory, "DataBase.db");
 
-            optionsBuilder.UseSqlite(dbPath);
+            optionsBuilder.UseSqlite($"Data Source={dbPath}");
         }
     }
 }
