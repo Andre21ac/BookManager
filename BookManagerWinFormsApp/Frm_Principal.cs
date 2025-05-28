@@ -14,7 +14,22 @@ namespace BookManagerWinFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_AutorLivro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_TituloLivro_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
